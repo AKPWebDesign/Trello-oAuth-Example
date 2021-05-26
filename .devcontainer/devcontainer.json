@@ -1,0 +1,19 @@
+{
+  "name": "Trell-oAuth",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-14",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "jpoissonnier.vscode-styled-components",
+    "msjsdiag.debugger-for-chrome",
+    "heybourn.headwind",
+    "bradlc.vscode-tailwindcss"
+  ],
+  "forwardPorts": [1234, 6006],
+  "remoteUser": "node"
+}
